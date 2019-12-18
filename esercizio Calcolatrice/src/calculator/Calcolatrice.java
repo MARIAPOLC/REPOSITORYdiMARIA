@@ -9,6 +9,7 @@ public class Calcolatrice {
 		return sum;
 			}
 	public double dividi (int x, int y) {
+		System.out.println("modifica locale");
 		if (y==0)
 			return Double.MAX_VALUE;
 		return x/y;
