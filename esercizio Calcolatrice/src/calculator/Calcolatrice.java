@@ -10,7 +10,7 @@ public class Calcolatrice {
 			}
 	public double dividi (int x, int y) {
 		System.out.println("modifica locale");
-		System.out.println ("modifica remota")
+		System.out.println ("modifica remota");
 		if (y==0)
 			return Double.MAX_VALUE;
 		return x/y;
